@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <!-- Menu Hamburger -->
+    <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">&times;</a>
+        <ul>
+          <li><a href="#">Louer une voiture</a></li>
+          <li><a href="#">Louer un utilitaire</a></li>
+          <li><a href="#">Réserver un chauffeur</a></li>
+          <li><a href="#">Découvrer nos agences</a></li>
+          <li><a href="#">Mon Compte</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+    <ul>Bienvenue à bord
+        <li>Location de voiture 24h/24 et 7j/7</li>
+    </ul>
+
+    <div class="recherche">
+        <button>Adresse de départ</button>
+        <label>Début de location</label>
+        <label>Fin de Location</label>
+        <button id="valid">Valider ma recherche</button>
+        
+    </div>
+</header>
+
+    <div class="result">
+        <p>7 résultats</p>
+        <button id="prixdecr">Prix croissant</button>
+    </div>
+<div class="tout">
+    <div class="voiture">
+        <img src="./utils/vehicule1.png" alt="Peugot 208">
+        <img src="./utils/vehicule2.png" alt="Ford Focus">
+        <img src="./utils/vehicule3.png" alt="Audi A1">
+        <img src="./utils/vehicule4.png" alt="Opel Mokla">
+    </div>
+
+    <div class="descr">
+        <ul>Peugot 208
+            <li>Diesel, 5portes, GPS, AutoRadio, Forfait1000km (0,5/km supplémentaire).</li>
+            <li class="prix">999e -Agence de Paris</li>
+            <button>Réserver et Payer</button>
+        </ul>
+        <ul>Ford Focus
+            <li>Diesel, 5portes, GPS, AutoRadio, Forfait1000km (0,5/km supplémentaire).</li>
+            <li class="prix">999e</li>
+            <button>Réserver et Payer</button>
+        </ul>
+        <ul>Audi A1
+            <li>Diesel, 5portes, GPS, AutoRadio, Forfait1000km (0,55/km supplémentaire).</li>
+            <li class="prix">1100e - Agence de Paris</li>
+            <button>Réserver et Payer</button>
+        </ul>
+        <ul>Opel Mokka
+            <li>Diesel, 5portes, GPS, AutoRadio, Forfait1000km (0,4/km supplémentaire).</li>
+            <li class="prix">1150e - Agence de Paris</li>
+            <button>Réserver et Payer</button>
+        </ul>
+    </div>
+</div>
+
+
+<footer>
+    <div class="foot">
+        <img class="footimg" src="./utils/agence.jpg" img>
+        <div class="foottext">
+            <ul>Notre Agence de <span id="Paris">Paris</span>
+                <li>300 boulevard de vaugirard, 75015, Paris</li>
+                <li>Ouvert 7j/7 de 09h à 13h et de 14h à 20h</li>
+                <li>01 49 78 21 33</li>
+                <li>contact@vtc.com</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="effet.js"></script>
+</body>
+</html>
